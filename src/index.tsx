@@ -98,9 +98,9 @@ export default definePlugin(() => {
 
   return {
     // The name shown in various decky menus
-    name: "Test Plugin",
+    name: "Run Without Updating",
     // The element displayed at the top of your plugin's menu
-    titleView: <div className={staticClasses.Title}>Decky Example Plugin</div>,
+    titleView: <div className={staticClasses.Title}>Run Games Without Updating First</div>,
     // The content of your plugin's menu
     content: <Content />,
     // The icon displayed in the plugin list
